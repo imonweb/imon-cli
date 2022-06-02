@@ -11,10 +11,10 @@ if (file_exists(__DIR__.'/vendor/autoload.php')) {
     require __DIR__.'/../../autoload.php';
 }
 
-use Awps\NewCommand;
+use Imon\NewCommand;
 use Symfony\Component\Console\Application;
 
-$app = new Application('AWPS Installer', '1.0.4');
+$app = new Application('IMON Installer', '1.0.4');
 
 $app->add(new NewCommand(new GuzzleHttp\Client()));
 
