@@ -1,4 +1,4 @@
-# ![imon-cli](http://www.imonweb.com/images/logo.png)
+# ![imon-cli](http://www.imonweb.co.uk/images/logo.png)
 > Nifty Command Line Application to quickly setup a new [IMON](https://github.com/imonweb/imon) theme in WordPress
 
 ## Installation
