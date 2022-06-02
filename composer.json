@@ -1,0 +1,27 @@
+{
+    "name": "imonweb/imon-cli",
+    "description": "Nifty Command Line Application to quickly setup a new IMON theme in WordPress",
+    "keywords": ["imon", "wordpress", "themes"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Imon Dela Rosa",
+            "email": "contact@imonweb.co.uk"
+        }
+    ],
+    "require": {
+        "ext-zip": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/console": "~3.0|~4.0",
+        "symfony/filesystem": "~3.0|~4.0",
+        "symfony/process": "~3.0|~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imon\\": "src"
+        }
+    },
+    "bin": [
+        "imon"
+    ]
+}
